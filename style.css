@@ -1,6 +1,46 @@
-body {
+
+* { 
+font-family: "Arial";
 }
 
 h1 {
+ color: darkorange
+}
 
+h2 {
+    color: #B45010
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin: 20px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+tr{
+background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+td {
+    border: 2px solid black;
+}
+
+p.esimerkki {
+    color: red;
+    margin-left: 50px;
+}
+
+
+p.esimerkki-box {
+    background-color: #DDFBD4;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin: 20px;
+    border: 2px solid black;
 }
