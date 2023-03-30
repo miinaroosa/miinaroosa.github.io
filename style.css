@@ -1,10 +1,10 @@
 
 * { 
-font-family: "Arial";
+    font-family: "Arial";
 }
 
 h1 {
- color: darkorange
+    color: darkorange
 }
 
 h2 {
@@ -20,7 +20,7 @@ table {
 }
 
 tr{
-background-color: white;
+    background-color: white;
 }
 
 tr:nth-child(odd) {
